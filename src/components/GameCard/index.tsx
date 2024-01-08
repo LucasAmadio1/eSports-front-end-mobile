@@ -29,7 +29,7 @@ export function GameCard({ data, ...rest }: Props) {
         style={styles.cover}
         source={{ uri: data.bannerUrl}}
         >
-
+          
         <LinearGradient
           colors={THEME.COLORS.FOOTER}
           style={styles.footer} 
